@@ -1,0 +1,619 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Text:ital@0;1&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playwrite+AU+SA:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.contenar {
+  width: 1100px;
+  margin: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #0e0e0ed6;
+}
+body {
+  background: #f1f1f3;
+  font-family: 'Poppins', serif;
+}
+p {
+  color: #242424a6;
+}
+/* header style */
+#header {
+  height: 55px;
+}
+.header-secation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.header-secation h2 {
+  margin-top: 12px;
+}
+
+button.button {
+  font-size: 20px;
+  padding: 10px 15px;
+  font-weight: 500;
+  border: 1px solid #006a50;
+  color: #006a50;
+  background: white;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+button.button:hover {
+  background: #5daf9b92;
+}
+/* banner style */
+#banner {
+  margin-top: 30px;
+}
+
+.banner-items {
+  display: flex;
+  align-items: center;
+  background: #c6e4d6;
+  border-radius: 20px;
+  margin-top: 15px;
+}
+.banner-titals {
+  padding-left: 30px;
+  width: 590px;
+}
+
+.banner-titals h3 {
+  padding: 10px 0px;
+  color: #3333337c;
+}
+.banner-titals h1 {
+  font-size: 50px;
+  width: 570px;
+}
+.banner-btn {
+  font-size: 20px;
+  padding: 10px 15px;
+  font-weight: 500;
+  border: 1px solid #006a50;
+  color: white;
+  background: #006a50;
+  border-radius: 5px;
+  margin-top: 24px;
+  transition: 0.5s;
+}
+.banner-btn:hover {
+  color: #006a50;
+  background: white;
+}
+.banner-img {
+  margin: 50px 0px;
+}
+/* header style Responsive*/
+@media all and (max-width: 667px) {
+  #header {
+    height: 105px;
+  }
+  .header-secation {
+    display: grid;
+    margin-left: 98px;
+    margin-top: 0px;
+    gap: 20px;
+  }
+  .banner-items {
+    display: grid;
+    margin-top: 30px;
+
+    background: #c6e4d6;
+    border-radius: 20px;
+    margin-top: 15px;
+  }
+  .banner-titals {
+    padding-left: 20px;
+  }
+  .banner-titals h3 {
+    display: inline-block;
+  }
+  .banner-titals h1 {
+    font-size: 28px;
+    width: 358px;
+  }
+  .banner-img img {
+    width: 340px;
+    margin-left: 31px;
+  }
+  .contenar {
+    width: 390px;
+  }
+  .banner-titals {
+    padding-left: 30px;
+    width: 0px;
+  }
+  .banner-btn {
+    font-size: 15px;
+    padding: 10px 10px;
+    font-weight: 500;
+    width: 195px;
+  }
+}
+
+/* The Vision of Future style */
+#Vision-of-Future {
+  margin-top: 50px;
+}
+.Vision-tital {
+  margin-top: 40px;
+  margin-bottom: 28px;
+}
+.Vision-tital h2 {
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+.Vision-tital p {
+  color: #242424a6;
+  font-family: emoji;
+}
+.Vision-box {
+  width: 353px;
+  padding: 20px;
+  background: beige;
+  border-radius: 15px;
+}
+.Vision-boxs {
+  display: flex;
+  gap: 20px;
+}
+.Vision-boxs img {
+  width: 60px;
+  height: 60px;
+  padding: 20px;
+}
+.Vision-boxs h3 {
+  padding: 10px 0px;
+  margin-top: -9px;
+}
+.Vision-boxs p {
+  font-size: 12px;
+  color: #242424a6;
+  margin-bottom: 20px;
+}
+.Vision-box:first-child {
+  background: #548ff535;
+}
+.Vision-box:last-child {
+  background: #c6e4d6;
+}
+.Vision-box-btn {
+  font-size: 20px;
+  padding: 10px 15px;
+  font-weight: 500;
+  color: white;
+  background: #5490f5;
+  border-radius: 5px;
+  margin-top: 24px;
+  transition: 0.5s;
+  border: none;
+}
+.Vision-box-btn:hover {
+  color: #5490f5;
+  background: white;
+}
+.Vision-box-btn2 {
+  font-size: 20px;
+  padding: 10px 15px;
+  font-weight: 500;
+  color: white;
+  background: #ffc239;
+  border-radius: 5px;
+  margin-top: 24px;
+  transition: 0.5s;
+  border: none;
+}
+.Vision-box-btn2:hover {
+  color: #ffc239;
+  background: white;
+}
+
+.Vision-box-btn3 {
+  font-size: 20px;
+  padding: 10px 15px;
+  font-weight: 500;
+  color: white;
+  background: #09a15c;
+  border-radius: 5px;
+  margin-top: 24px;
+  transition: 0.5s;
+  border: none;
+}
+.Vision-box-btn3:hover {
+  color: #09a15c;
+  background: white;
+}
+
+/* The Vision of Future style Responsive*/
+@media all and (max-width: 667px) {
+  .Vision-tital h2 {
+    padding: 10px;
+  }
+  .Vision-boxs {
+    display: grid;
+  }
+  .Vision-tital p {
+    padding: 10px;
+  }
+  .Vision-box {
+    width: 343px;
+  }
+}
+/* Quote style */
+section#Quote-Section {
+  margin-top: 50px;
+}
+.Quote {
+  position: relative;
+  margin-top: 40px;
+  padding: 30px 20px;
+  background: white;
+  border: 1px solid #dbdbdb;
+  border-radius: 15px;
+}
+.Quote-img {
+  position: absolute;
+}
+.Quote p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.Quote h3 {
+  font-weight: 700;
+  margin-bottom: 11px;
+}
+.Quote h3 sapn {
+  color: #5490f5;
+}
+.dr {
+  color: crimson;
+  font-size: 23px;
+}
+/* Quote style Responsive*/
+
+/* Quote style Responsive alrady*/
+/* Matter style */
+#Your-Opinion-Matters {
+  margin-top: 50px;
+}
+.Matter {
+  display: flex;
+  justify-content: space-between;
+  background: #c6e4d6;
+  padding: 20px;
+}
+.Matter2 {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #e4e4e4;
+  border-collapse: collapse;
+}
+.Matter2 h6 {
+  border-right: 1px solid #e4e4e4;
+  display: block;
+  width: 845px;
+  padding: 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.Matter2 button {
+  padding: 10px 15px;
+  font-size: 13px;
+  font-weight: 600;
+  background: #c6e4d6;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.Matter2 button:hover {
+  background: #006a50;
+  color: white;
+}
+.Matter-btn {
+  margin-top: 10px;
+  margin-right: 13px;
+}
+
+.Opinion-Matters h2 {
+  padding: 21px 0px;
+}
+.Opinion-Matters {
+  margin-top: 25px;
+}
+.Matters {
+  padding: 32px;
+  background: white;
+  border-radius: 16px;
+  margin-bottom: 50px;
+  border: 1px solid #dbdbdb;
+}
+
+/* Matter styleResponsive*/
+
+@media all and (max-width: 667px) {
+  .Matters {
+    padding: 8px;
+  }
+  .Matter2 h6 {
+    padding: 10px;
+  }
+  .Matter2 button {
+    padding: 5px 25px;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .Matter-btn {
+    margin-top: 18px;
+    margin-right: 0px;
+  }
+  .Opinion-Matters h2 {
+    margin-left: 10px;
+  }
+}
+/* Recent-News style */
+section#Recent-News {
+  margin-top: 50px;
+}
+.Recent-News-content {
+  display: flex;
+  padding: 25px;
+  background: white;
+  gap: 40px;
+  border-radius: 16px;
+  margin-top: 30px;
+  border: 1px solid #dbdbdb;
+}
+.content-img img {
+  border-radius: 16px;
+}
+.Recent-News-tital h2 {
+  padding: 15px 0px;
+}
+
+.content-tital h3 {
+  font-weight: 800;
+}
+.content-tital img {
+  margin: 10px 0px;
+}
+.content-tital time {
+  margin: 0px 25px 0px 0px;
+  font-size: 20px;
+}
+.content-tital p {
+  margin: 10px 0px 0px 0px;
+}
+.Recent-btn {
+  font-size: 20px;
+  padding: 10px 15px;
+  font-weight: 500;
+  color: white;
+  background: #5490f5;
+  border-radius: 5px;
+  margin-top: 24px;
+  transition: 0.5s;
+  border: none;
+  border: 1px solid #5490f5;
+}
+.Recent-btn:hover {
+  background: white;
+  color: #5490f5;
+}
+/* Recent-News style Responsive*/
+@media all and (max-width: 667px) {
+  .Recent-News-content {
+    display: grid;
+  }
+  .Recent-News-tital {
+    padding: 10px;
+  }
+  .content-img img {
+    width: 340px;
+  }
+}
+/* Donate Today style */
+section#Donate-Today {
+  margin-top: 50px;
+}
+.Donate-tital {
+  text-align: center;
+  margin: 25px 0px;
+}
+.Donate-tital p {
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+}
+.Donate-boxs {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+.Donate-box h1 {
+  color: #0e0e0ed6;
+  display: inline;
+  background: white;
+  padding: 25px;
+  font-size: 44px;
+  border-radius: 15px;
+  cursor: pointer;
+  border: 1px solid #dbdbdb;
+}
+.Donate-box:nth-child(3) h1 {
+  background: #c6e4d6;
+}
+.Donate-box h1:hover {
+  background: #006a50;
+  color: white;
+}
+.Donate-box h1:hover.Donate-box {
+  background: white;
+  color: black;
+}
+
+.Donate-inputs {
+  text-align: center;
+  margin-top: 90px;
+}
+.Donate-Today-input input {
+  width: 90%;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid #dbdbdb;
+}
+.Donate-Today-input {
+  margin-bottom: 30px;
+}
+.Donate-Today-btn {
+  font-size: 20px;
+  padding: 10px 15px;
+  font-weight: 500;
+  border: 1px solid #006a50;
+  color: white;
+  background: #006a50;
+  border-radius: 5px;
+  margin-top: 24px;
+  transition: 0.5s;
+}
+.Donate-Today-btn:hover {
+  color: #006a50;
+  background: white;
+}
+/* Donate Today style Responsive */
+
+@media all and (max-width: 667px) {
+  .Donate-boxs {
+    display: grid;
+    /* flex-direction: column; */
+  }
+  .Donate-box h1 {
+    padding: 20px;
+    font-size: 40px;
+  }
+  .Donate-box {
+    margin-bottom: 50px;
+  }
+  .Donate-inputs {
+    margin-top: 0px;
+  }
+  .Donate-Today-input input {
+    width: 80%;
+  }
+  .Donate-Today-btn {
+    margin-top: 0px;
+  }
+}
+/* footer style */
+#footer-secation {
+  margin-top: 50px;
+}
+.footer-boxs {
+  text-align: center;
+  padding: 56px 80px 24px 80px;
+  background: #c6e4d6;
+  border-radius: 30px;
+}
+.footer-boxs h1 {
+  margin: 16px 0px;
+}
+.footer-boxs p {
+  width: 674px;
+  margin-left: 124px;
+}
+.footer-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+input.footer-inp {
+  width: 100%;
+  border-radius: 8px 0px 0px 8px;
+  font-size: 20px;
+  padding: 20px;
+  border: 1px solid #dbdbdb;
+}
+button.footer-btn {
+  border-radius: 0px 8px 8px 0px;
+  background: #006a50;
+  padding: 15px 30px;
+  font-size: 30px;
+  font-weight: 600;
+  border: none;
+  color: white;
+  border: 1px solid #dbdbdb;
+  margin-left: -1;
+}
+.promise {
+  margin-top: 37px;
+}
+.footer-last-items {
+  text-align: center;
+  padding: 38px;
+}
+.footer-last-items h3 {
+  padding: 25px 0px 10px 0px;
+}
+.footer-icons img {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.footer-icons img {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.footer-icons {
+  margin-top: 15px;
+  font-size: 0px;
+}
+
+/* footer style Responsive*/
+@media all and (max-width: 667px) {
+  .footer-boxs {
+    text-align: center;
+    padding: 10px;
+  }
+  .footer-boxs p {
+    width: 355px;
+    margin-left: 3px;
+    text-align: center;
+  }
+  button.footer-btn {
+    border-radius: 0px 8px 8px 0px;
+    padding: 13px 20px;
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: -50px;
+  }
+  .footer-btns {
+    width: 100%;
+    gap: 15px;
+  }
+  input.footer-inp {
+    width: 135%;
+    border-radius: 8px 8px 8px 8px;
+    font-size: 14px;
+    padding: 15px;
+    border: 1px solid #dbdbdb;
+  }
+  .footer-icons img {
+    margin-left: 6px;
+    margin-right: 12px;
+  }
+}
